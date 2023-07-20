@@ -1,0 +1,44 @@
+@media screen and (max-width:576px) {
+    .brand{
+        gap: 20px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin: 20px;
+        list-style: none;
+    }
+    .banner {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .banner-btn{
+        display: inline;
+    }
+    .we-are-img {
+        width: 600px;
+    }
+    .our-purpose{
+        text-align: center;
+    }
+    .game-video {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-between;
+        gap: 25px;
+        align-items: center;
+    }
+    .footer-menu ul{
+        flex-direction: row;
+    }
+}
